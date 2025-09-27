@@ -1,0 +1,55 @@
+/* Headings global style */
+h1, h2, h3, h4 {
+  font-size: 24px;
+  -webkit-text-stroke: 0.5px #000000;
+  text-shadow: 0 0 0 #000000; /* non-webkit fallback illusion */
+}
+
+/* Sections */
+#gioi-thieu {
+  background-color: #F3FDE8;
+  padding: 16px;
+}
+
+#lien-he {
+  background-image: url('images/meomeo.png');
+  background-repeat: repeat;
+  padding: 16px;
+  text-align: center;
+}
+
+/* Goals table borders */
+.goals-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.goals-table th,
+.goals-table td {
+  border: 1px solid #000000;
+  padding: 8px;
+}
+
+/* Navigation and footer */
+nav,
+footer {
+  background: #d4f2f4;
+  color: #0b0848;
+  padding: 10px 16px;
+}
+
+nav a {
+  color: #0b0848;
+  margin-right: 12px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  margin: 0;
+  text-align: center;
+}

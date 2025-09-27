@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>22520507</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <nav>
+    <a href="#gioi-thieu">Giới thiệu bản thân</a>
+    <a href="#lien-he">Gửi thông tin và liên hệ</a>
+  </nav>
+  <div id="gioi-thieu">
+    <h1 style="color:#CAEDFF">Giới thiệu bản thân</h1>
+    <img src="https://i.ibb.co/F4ZVnpRL/z7054902357614-855798502c3f11416e33d100682dc7af.jpg" alt="Ảnh đại diện của tôi" width="200" height="200" style="display:block;margin:0 auto;">
+    <h2 style="color:#D8D4F8">Thông tin cơ bản</h2>
+
+    <ul>
+      <li>Họ và tên: Lê Nguyễn Hưng</li>
+      <li>Năm sinh: 2004</li>
+      <li>Chuyên ngành: Khoa học máy tính</li>
+    </ul>
+
+    <h2 style="color:#D8D4F8">Sở thích</h2>
+    <h3 style="color:#FFC7EA">Món ăn</h3>
+    <ol>
+      <li>Cơm sườn</li>
+      <li>Cơm gà</li>
+      <li>Cơm trắng</li>
+    </ol>
+
+    <h3 style="color:#FFC7EA">Giải trí</h3>
+    <h4>Trò chơi</h4>
+    <ul>
+      <li>Liqi</li>
+      <li>Fi5</li>
+      <li>Nhảy dây</li>
+    </ul>
+
+    <h4>Bài hát yêu thích</h4>
+    <ul>
+      <li>Đánh đổi</li>
+      <li>Đầu đường xó chợ</li>
+      <li>Tell the kids I love them</li>
+    </ul>
+
+    <h2 style="color:#D8D4F8">Mục tiêu của bản thân</h2>
+    <table class="goals-table">
+      <thead>
+        <tr>
+          <th>Mục tiêu</th>
+          <th>Thời hạn</th>
+          <th>Hoàn thành</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Thách đấu fi5</td>
+          <td><input type="date" name="deadline1" placeholder="DD/MM/YYYY"></td>
+          <td><input type="checkbox" name="done1"></td>
+        </tr>
+        <tr>
+          <td>Chiến thần liqi</td>
+          <td><input type="date" name="deadline2" placeholder="DD/MM/YYYY"></td>
+          <td><input type="checkbox" name="done2"></td>
+        </tr>
+        <tr>
+          <td>Cục vàng elsu</td>
+          <td><input type="date" name="deadline3" placeholder="DD/MM/YYYY"></td>
+          <td><input type="checkbox" name="done3"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div id="lien-he">
+    <h2 style="color:#D8D4F8">Gửi thông tin và giao lưu cùng tôi</h2>
+    <form action="#" method="post">
+      <div>
+        <label for="name">Họ và tên:</label>
+        <input type="text" id="name" name="name" placeholder="Nhập họ và tên">
+      </div>
+
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="name@example.com">
+      </div>
+
+      <div>
+        <label for="message">Tin nhắn:</label><br>
+        <textarea id="message" name="message" rows="6" cols="60" placeholder="Lời nhắn của bạn..."></textarea>
+      </div>
+
+      <div>
+        <span>Giới tính:</span>
+        <label><input type="radio" name="gender" value="Nam"> Nam</label>
+        <label><input type="radio" name="gender" value="Nữ"> Nữ</label>
+      </div>
+
+      <div>
+        <span>Sở thích:</span>
+        <label><input type="checkbox" name="hobbies" value="music"> Liqi</label>
+        <label><input type="checkbox" name="hobbies" value="swim"> Fi5</label>
+        <label><input type="checkbox" name="hobbies" value="sea"> Ngủ</label>
+      </div>
+
+      <div>
+        <label for="major">Ngành:</label>
+        <select id="major" name="major">
+          <option value="khmt" selected>Khoa học Máy tính</option>
+          <option value="khdl">Khoa học Dữ liệu</option>
+          <option value="attt">An toàn thông tin</option>
+          <option value="attt">Thượng mại điện tử</option>
+          <option value="attt">Hệ thống thông tin</option>
+        </select>
+      </div>
+
+      <div>
+        <button type="submit">Gửi</button>
+      </div>
+    </form>
+  </div>
+  <footer>
+    <p>Cris</p>
+  </footer>
+</body>
+</html>
+
+
