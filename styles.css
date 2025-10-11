@@ -12,7 +12,7 @@ h1, h2, h3, h4 {
 }
 
 #lien-he {
-  background-image: url('images/meomeo.png');
+  background-image: url('images/images.jpg');
   background-repeat: repeat;
   padding: 16px;
   text-align: center;
@@ -52,4 +52,37 @@ nav a:hover {
 footer p {
   margin: 0;
   text-align: center;
+}
+
+/* Error messages for form validation */
+.error {
+  color: #ff0000;
+  font-size: 14px;
+  margin: 5px 0 0 0;
+  font-weight: 500;
+}
+
+/* Back to top button */
+#back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #0b0848;
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+#back-to-top:hover {
+  background-color: #d4f2f4;
+  color: #0b0848;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
 }
